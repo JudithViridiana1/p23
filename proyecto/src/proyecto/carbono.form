@@ -26,37 +26,45 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="367" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="0" pref="148" max="32767" attributes="0"/>
-                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="jPanel1" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane1" pref="367" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton1" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel3" min="-2" pref="257" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
               <Component id="jLabel1" min="-2" pref="243" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="266" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" pref="29" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="29" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="0" pref="36" max="32767" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="247" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="137" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
           </Group>
@@ -80,7 +88,8 @@
             </Property>
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Esta es la primera etapa de la fase oscura, momento en que se fija el carbono. En&#xa;esta etapa, el carbono que proviene del CO2 de la atm&#xf3;sfera se fija dentro de un&#xa;carbohidrato. Para ello existen tres variaciones: Fijaci&#xf3;n del carbono C3, fijaci&#xf3;n&#xa;del carbono C4 y CAM. A continuaci&#xf3;n, analizamos cada una de ellas.&#xa;&#xf0b7; Fijaci&#xf3;n de carbono C3: se fija el CO2 directamente en el Ciclo de Calvin&#xa;sin fijaciones previas. La explicaci&#xf3;n cient&#xed;fica explica que la enzima rubrico&#xa;cataliza la reacci&#xf3;n entre la ribulosa-1, 5-bifosfato con el CO2, de este&#xa;modo se crea una mol&#xe9;cula de seis carbonos que se separa en dos&#xa;mol&#xe9;culas de fosfoglicerato con tres &#xe1;tomos de carbono.&#xa;&#xa;&#xf0b7; Fijaci&#xf3;n de carbono C4: Antes de ingresar el CO2 en el Ciclo de Calvin,&#xa;reacciona con el fosfoenolpiruvato y produce oxalacetato, que&#xa;posteriormente se convertir&#xe1; en malato, una mol&#xe9;cula de 4 carbonos. A&#xa;continuaci&#xf3;n, el malato se transporta a las c&#xe9;lulas y se descarboxila para&#xa;producir el CO2 que se requiere en el Ciclo de Calvin.&#xa;&#xf0b7; Fijaci&#xf3;n de carbono en plantas CAM: En esta ocasi&#xf3;n, el proceso es&#xa;parecido al C4, pero tiene lugar en las crasul&#xe1;ceas. Las plantas de este tipo&#xa;cierran sus estomas de d&#xed;a y no pueden absorber CO2. Por tanto, para&#xa;realizar la fotos&#xed;ntesis absorben el CO2 por la noche, transform&#xe1;ndolo en&#xa;malato y suministrando este durante el d&#xed;a para que la planta puede realizar&#xa;el Ciclo de Calvin."/>
+            <Property name="text" type="java.lang.String" value="Esta es la primera etapa de la fase oscura, momento en que se fija el carbono. En&#xa;esta etapa, el carbono que proviene del CO2 de la atm&#xf3;sfera se fija dentro de un&#xa;carbohidrato. Para ello existen tres variaciones: Fijaci&#xf3;n del carbono C3, fijaci&#xf3;n&#xa;del carbono C4 y CAM. A continuaci&#xf3;n, analizamos cada una de ellas.                                                                      &#xa;-- Fijaci&#xf3;n de carbono C3: se fija el CO2 directamente en el Ciclo de Calvin&#xa;sin fijaciones previas. La explicaci&#xf3;n cient&#xed;fica explica que la enzima rubrico&#xa;cataliza la reacci&#xf3;n entre la ribulosa-1, 5-bifosfato con el CO2, de este&#xa;modo se crea una mol&#xe9;cula de seis carbonos que se separa en dos&#xa;mol&#xe9;culas de fosfoglicerato con tres &#xe1;tomos de carbono.     &#xa;--Fijaci&#xf3;n de carbono C4: Antes de ingresar el CO2 en el Ciclo de Calvin,&#xa;reacciona con el fosfoenolpiruvato y produce oxalacetato, que&#xa;posteriormente se convertir&#xe1; en malato, una mol&#xe9;cula de 4 carbonos. A&#xa;continuaci&#xf3;n, el malato se transporta a las c&#xe9;lulas y se descarboxila para&#xa;producir el CO2 que se requiere en el Ciclo de Calvin.          &#xa;--Fijaci&#xf3;n de carbono en plantas CAM: En esta ocasi&#xf3;n, el proceso es&#xa;parecido al C4, pero tiene lugar en las crasul&#xe1;ceas. Las plantas de este tipo cierran sus estomas de d&#xed;a y no pueden absorber CO2.                                                                 Por tanto, para realizar la fotos&#xed;ntesis absorben el CO2 por la noche, transform&#xe1;ndolo en malato y suministrando este durante el d&#xed;a para que la planta puede realizar&#xa;el Ciclo de Calvin.                                                                                                                                                                                                          "/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -90,35 +99,54 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Fijacion de carbono"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JPanel" name="jPanel1">
-      <Properties>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-            <LineBorder/>
-          </Border>
-        </Property>
-      </Properties>
-
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="269" max="32767" attributes="0"/>
-          </Group>
-        </DimensionLayout>
-      </Layout>
-    </Container>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="0" red="66" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Regresar"/>
       </Properties>
     </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/imagen040.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="13" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="La fotorrespiraci&#xf3;n es un proceso en el cual la ribulosa fosfato, tiene m&#xe1;s afinidad con el ox&#xed;geno, ya que este se encuentra en mayor proporci&#xf3;n que el C, dando como resultado final -despu&#xe9;s de varios pasos que implican a los cloroplastos, peroxisomas y mitocondrias- la liberaci&#xf3;n de di&#xf3;xido de carbono. La fotorrespiraci&#xf3;n es muy limitada en las plantas C4 y, en condiciones de luz solar intensa, elevadas temperaturas o sequ&#xed;a, las plantas C4 son m&#xe1;s eficientes que las C3."/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>
