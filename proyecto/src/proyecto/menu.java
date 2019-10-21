@@ -1,6 +1,7 @@
 package proyecto;
 
 import java.awt.Color;
+import javax.swing.ImageIcon;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -20,6 +21,9 @@ public class menu extends javax.swing.JFrame {
     public menu() {
         initComponents();
         this.getContentPane().setBackground(Color.DARK_GRAY);
+        this.setDefaultCloseOperation(menu.DO_NOTHING_ON_CLOSE);
+        this.setIconImage(new ImageIcon (getClass().getResource("/imagenes/logo.jpg")).getImage());
+         this.setLocationRelativeTo(null); 
     }
 
     /**
@@ -53,6 +57,11 @@ public class menu extends javax.swing.JFrame {
         btnRregresar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btnRregresar.setForeground(new java.awt.Color(102, 0, 102));
         btnRregresar.setText("Regresar");
+        btnRregresar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRregresarActionPerformed(evt);
+            }
+        });
 
         lblImagen2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen02.jpg"))); // NOI18N
         lblImagen2.setText("jLabel2");
@@ -99,11 +108,30 @@ public class menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void cmbMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbMenuActionPerformed
-         definicion definicion =new definicion();
-         definicion.setVisible(true);
-        
-        
+
+        String opcion = (String) cmbMenu.getSelectedItem();
+        switch (opcion) {
+            case "Definición":
+                definicion definicion = new definicion();
+                definicion.setVisible(true);
+                break;
+            case "Fijación de carbono":
+                carbono carb = new carbono();
+                carb.setVisible(true);
+                break;
+            case "Conclusión":
+                conclusion con = new conclusion();
+                con.setVisible(true);
+                break;
+            default:
+                break;
+        }
+            
     }//GEN-LAST:event_cmbMenuActionPerformed
+
+    private void btnRregresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRregresarActionPerformed
+     dispose();
+    }//GEN-LAST:event_btnRregresarActionPerformed
                                        
 
     /**

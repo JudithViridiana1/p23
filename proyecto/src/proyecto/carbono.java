@@ -1,6 +1,7 @@
 package proyecto;
 
 import java.awt.Color;
+import javax.swing.ImageIcon;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -20,6 +21,9 @@ public class carbono extends javax.swing.JFrame {
     public carbono() {
         initComponents();
          this.getContentPane().setBackground(Color.DARK_GRAY);
+          this.setDefaultCloseOperation(menu.DO_NOTHING_ON_CLOSE);
+        this.setIconImage(new ImageIcon (getClass().getResource("/imagenes/logo.jpg")).getImage());
+         this.setLocationRelativeTo(null); 
     }
 
     /**
@@ -57,6 +61,11 @@ public class carbono extends javax.swing.JFrame {
 
         btnRegresar3.setForeground(new java.awt.Color(102, 0, 102));
         btnRegresar3.setText("Regresar");
+        btnRegresar3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresar3ActionPerformed(evt);
+            }
+        });
 
         lblImagen4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen040.jpg"))); // NOI18N
         lblImagen4.setText("jLabel3");
@@ -113,6 +122,10 @@ public class carbono extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnRegresar3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresar3ActionPerformed
+        dispose();
+    }//GEN-LAST:event_btnRegresar3ActionPerformed
 
     /**
      * @param args the command line arguments

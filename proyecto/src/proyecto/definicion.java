@@ -1,6 +1,7 @@
 package proyecto;
 
 import java.awt.Color;
+import javax.swing.ImageIcon;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -20,6 +21,9 @@ public class definicion extends javax.swing.JFrame {
     public definicion() {
         initComponents();
         this.getContentPane().setBackground(Color.DARK_GRAY);
+         this.setDefaultCloseOperation(menu.DO_NOTHING_ON_CLOSE);
+        this.setIconImage(new ImageIcon (getClass().getResource("/imagenes/logo.jpg")).getImage());
+         this.setLocationRelativeTo(null); 
     }
 
     /**
@@ -57,6 +61,11 @@ public class definicion extends javax.swing.JFrame {
         btnRegresar2.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         btnRegresar2.setForeground(new java.awt.Color(102, 0, 102));
         btnRegresar2.setText("Regresar");
+        btnRegresar2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresar2ActionPerformed(evt);
+            }
+        });
 
         lblImagen3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblImagen3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen030.jpg"))); // NOI18N
@@ -98,6 +107,10 @@ public class definicion extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnRegresar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresar2ActionPerformed
+    dispose ();
+    }//GEN-LAST:event_btnRegresar2ActionPerformed
 
     /**
      * @param args the command line arguments

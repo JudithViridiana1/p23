@@ -1,6 +1,7 @@
 package proyecto;
 
 import java.awt.Color;
+import javax.swing.ImageIcon;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -20,7 +21,9 @@ public class conclusion extends javax.swing.JFrame {
     public conclusion() {
         initComponents();
         this.getContentPane().setBackground(Color.DARK_GRAY);
-        System.exit(0);
+        this.setDefaultCloseOperation(menu.DO_NOTHING_ON_CLOSE);
+        this.setIconImage(new ImageIcon (getClass().getResource("/imagenes/logo.jpg")).getImage());
+         this.setLocationRelativeTo(null); 
     }
 
     /**
@@ -104,7 +107,7 @@ public class conclusion extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRegresar4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresar4ActionPerformed
-        // TODO add your handling code here:
+     dispose ();
     }//GEN-LAST:event_btnRegresar4ActionPerformed
 
     /**

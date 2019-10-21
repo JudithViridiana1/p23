@@ -22,6 +22,7 @@ public class inicio extends javax.swing.JFrame {
         initComponents();
          this.getContentPane().setBackground(Color.DARK_GRAY);
          this.setIconImage(new ImageIcon (getClass().getResource("/imagenes/logo.jpg")).getImage());
+          this.setLocationRelativeTo(null); 
     } 
     
 
