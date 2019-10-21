@@ -54,6 +54,7 @@ public class conclusion extends javax.swing.JFrame {
         txtContenido5.setLineWrap(true);
         txtContenido5.setRows(5);
         txtContenido5.setText("La fotosíntesis es muy importante para los procesos que utilizan las plantas\ndurante la noche, ya que utilizan el CO2 para poder realizar su fotosíntesis\ncorrectamente, sin utilizar la luz solar; en lugar de utiliza la luz, se alimentan con\nla función de la fotorrespiración.");
+        txtContenido5.setWrapStyleWord(true);
         jScrollPane1.setViewportView(txtContenido5);
 
         btnRegresar4.setForeground(new java.awt.Color(102, 0, 102));
