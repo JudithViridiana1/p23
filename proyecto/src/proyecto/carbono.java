@@ -32,44 +32,44 @@ public class carbono extends javax.swing.JFrame {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
+        txtContenido2 = new javax.swing.JTextArea();
+        lblCarbono = new javax.swing.JLabel();
+        btnRegresar3 = new javax.swing.JButton();
+        lblImagen4 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        txtContenido3 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("Esta es la primera etapa de la fase oscura, momento en que se fija el carbono. En\nesta etapa, el carbono que proviene del CO2 de la atmósfera se fija dentro de un\ncarbohidrato. Para ello existen tres variaciones: Fijación del carbono C3, fijación\ndel carbono C4 y CAM. A continuación, analizamos cada una de ellas.                                                                      \n-- Fijación de carbono C3: se fija el CO2 directamente en el Ciclo de Calvin\nsin fijaciones previas. La explicación científica explica que la enzima rubrico\ncataliza la reacción entre la ribulosa-1, 5-bifosfato con el CO2, de este\nmodo se crea una molécula de seis carbonos que se separa en dos\nmoléculas de fosfoglicerato con tres átomos de carbono.     \n--Fijación de carbono C4: Antes de ingresar el CO2 en el Ciclo de Calvin,\nreacciona con el fosfoenolpiruvato y produce oxalacetato, que\nposteriormente se convertirá en malato, una molécula de 4 carbonos. A\ncontinuación, el malato se transporta a las células y se descarboxila para\nproducir el CO2 que se requiere en el Ciclo de Calvin.          \n--Fijación de carbono en plantas CAM: En esta ocasión, el proceso es\nparecido al C4, pero tiene lugar en las crasuláceas. Las plantas de este tipo cierran sus estomas de día y no pueden absorber CO2.                                                                 Por tanto, para realizar la fotosíntesis absorben el CO2 por la noche, transformándolo en malato y suministrando este durante el día para que la planta puede realizar\nel Ciclo de Calvin.                                                                                                                                                                                                          ");
-        jTextArea1.setWrapStyleWord(true);
-        jScrollPane1.setViewportView(jTextArea1);
+        txtContenido2.setEditable(false);
+        txtContenido2.setColumns(20);
+        txtContenido2.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        txtContenido2.setLineWrap(true);
+        txtContenido2.setRows(5);
+        txtContenido2.setText("Esta es la primera etapa de la fase oscura, momento en que se fija el carbono. En\nesta etapa, el carbono que proviene del CO2 de la atmósfera se fija dentro de un\ncarbohidrato. Para ello existen tres variaciones: Fijación del carbono C3, fijación\ndel carbono C4 y CAM. A continuación, analizamos cada una de ellas.                                                                      \n-- Fijación de carbono C3: se fija el CO2 directamente en el Ciclo de Calvin\nsin fijaciones previas. La explicación científica explica que la enzima rubrico\ncataliza la reacción entre la ribulosa-1, 5-bifosfato con el CO2, de este\nmodo se crea una molécula de seis carbonos que se separa en dos\nmoléculas de fosfoglicerato con tres átomos de carbono.     \n--Fijación de carbono C4: Antes de ingresar el CO2 en el Ciclo de Calvin,\nreacciona con el fosfoenolpiruvato y produce oxalacetato, que\nposteriormente se convertirá en malato, una molécula de 4 carbonos. A\ncontinuación, el malato se transporta a las células y se descarboxila para\nproducir el CO2 que se requiere en el Ciclo de Calvin.          \n--Fijación de carbono en plantas CAM: En esta ocasión, el proceso es\nparecido al C4, pero tiene lugar en las crasuláceas. Las plantas de este tipo cierran sus estomas de día y no pueden absorber CO2.                                                                 Por tanto, para realizar la fotosíntesis absorben el CO2 por la noche, transformándolo en malato y suministrando este durante el día para que la planta puede realizar\nel Ciclo de Calvin.                                                                                                                                                                                                          ");
+        txtContenido2.setWrapStyleWord(true);
+        jScrollPane1.setViewportView(txtContenido2);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Fijacion de carbono");
+        lblCarbono.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lblCarbono.setForeground(new java.awt.Color(255, 255, 255));
+        lblCarbono.setText("Fijacion de carbono");
 
-        jButton1.setForeground(new java.awt.Color(102, 0, 102));
-        jButton1.setText("Regresar");
+        btnRegresar3.setForeground(new java.awt.Color(102, 0, 102));
+        btnRegresar3.setText("Regresar");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen040.jpg"))); // NOI18N
-        jLabel3.setText("jLabel3");
-        jLabel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        lblImagen4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/imagen040.jpg"))); // NOI18N
+        lblImagen4.setText("jLabel3");
+        lblImagen4.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        jTextArea2.setEditable(false);
-        jTextArea2.setColumns(20);
-        jTextArea2.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
-        jTextArea2.setLineWrap(true);
-        jTextArea2.setRows(5);
-        jTextArea2.setText("La fotorrespiración es un proceso en el cual la ribulosa fosfato, tiene más afinidad con el oxígeno, ya que este se encuentra en mayor proporción que el C, dando como resultado final -después de varios pasos que implican a los cloroplastos, peroxisomas y mitocondrias- la liberación de dióxido de carbono. La fotorrespiración es muy limitada en las plantas C4 y, en condiciones de luz solar intensa, elevadas temperaturas o sequía, las plantas C4 son más eficientes que las C3.");
-        jTextArea2.setWrapStyleWord(true);
-        jScrollPane2.setViewportView(jTextArea2);
+        txtContenido3.setEditable(false);
+        txtContenido3.setColumns(20);
+        txtContenido3.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        txtContenido3.setLineWrap(true);
+        txtContenido3.setRows(5);
+        txtContenido3.setText("La fotorrespiración es un proceso en el cual la ribulosa fosfato, tiene más afinidad con el oxígeno, ya que este se encuentra en mayor proporción que el C, dando como resultado final -después de varios pasos que implican a los cloroplastos, peroxisomas y mitocondrias- la liberación de dióxido de carbono. La fotorrespiración es muy limitada en las plantas C4 y, en condiciones de luz solar intensa, elevadas temperaturas o sequía, las plantas C4 son más eficientes que las C3.");
+        txtContenido3.setWrapStyleWord(true);
+        jScrollPane2.setViewportView(txtContenido3);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -82,28 +82,28 @@ public class carbono extends javax.swing.JFrame {
                     .addComponent(jScrollPane2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnRegresar3, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lblImagen4, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(16, 16, 16)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblCarbono, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(266, 266, 266))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(18, 18, 18)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblCarbono, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(0, 36, Short.MAX_VALUE)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lblImagen4, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(42, 42, 42)
-                        .addComponent(jButton1))
+                        .addComponent(btnRegresar3))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jScrollPane1)
                         .addGap(18, 18, 18)
@@ -150,12 +150,12 @@ public class carbono extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton btnRegresar3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JLabel lblCarbono;
+    private javax.swing.JLabel lblImagen4;
+    private javax.swing.JTextArea txtContenido2;
+    private javax.swing.JTextArea txtContenido3;
     // End of variables declaration//GEN-END:variables
 }

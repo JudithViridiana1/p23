@@ -21,7 +21,7 @@ public class inicio extends javax.swing.JFrame {
     public inicio() {
         initComponents();
          this.getContentPane().setBackground(Color.DARK_GRAY);
-          this.setIconImage(new ImageIcon (getClass().getResourse("/images/icono.jpg")).getImage());
+         this.setIconImage(new ImageIcon (getClass().getResource("/imagenes/logo.jpg")).getImage());
     } 
     
 
@@ -51,6 +51,11 @@ public class inicio extends javax.swing.JFrame {
 
         btnInicio.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnInicio.setText("Inicio");
+        btnInicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnInicioActionPerformed(evt);
+            }
+        });
 
         lblNombre1.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         lblNombre1.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,6 +121,11 @@ public class inicio extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnInicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInicioActionPerformed
+       menu menu = new menu ();
+      menu.setVisible(true);        
+    }//GEN-LAST:event_btnInicioActionPerformed
 
     /**
      * @param args the command line arguments
